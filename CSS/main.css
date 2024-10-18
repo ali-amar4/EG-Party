@@ -1,0 +1,181 @@
+/* ^ Variables */
+:root {
+    --navWidth: 250px
+}
+
+/* ^ Header Section Styles */
+
+.header {
+    background-image: url(../imgs/events-heavenly-header.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.header .row {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51, 0.6);
+
+}
+
+.open-nav {
+    width: fit-content;
+    cursor: pointer;
+    margin-left: 10px;
+    position: absolute;
+    margin-left: 10px;
+    top: 50%;
+}
+
+.mt-7 {
+    margin-top: 6rem;
+}
+
+
+.left-menu {
+    position: fixed;
+    color: #fff;
+    background-color: #111;
+    min-width: 250px;
+    left: -310px;
+}
+
+.closeBtn {
+    display: block;
+    padding: 20px;
+    font-size: 30px;
+    width: fit-content;
+    margin-left: auto;
+    cursor: pointer;
+    transition: color 200ms;
+}
+
+.navMenu li {
+    list-style-type: none;
+    cursor: pointer;
+
+}
+
+.navMenu li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    transition: color 200ms;
+}
+
+.navMenu li a:hover,
+.closeBtn:hover {
+    color: rgba(214, 46, 51, 0.4);
+}
+
+.home-content {
+    width: calc(100% - 250px);
+}
+
+.open-nav {
+    cursor: pointer;
+    text-wrap: nowrap;
+}
+
+/* ^ sliderDown Section Styles */
+.sliderDown {
+    padding: 100px 0px;
+}
+
+.toggle {
+    background-color: rgba(214, 46, 51, 0.6);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    cursor: pointer;
+    width: 50%;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.sliderDown .inner {
+    background-color: #ccc;
+    padding: 10px;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+    width: 50%;
+    font-size: 15px;
+    overflow: hidden;
+    display: none;
+}
+
+/* ^ Counter Section Styles */
+
+.counter {
+    background-image: linear-gradient(to bottom, rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)), url(../imgs/invitation-2508607__340.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 50px;
+    min-height: 300px;
+}
+
+.counter .row>div {
+    height: 180px;
+    display: flex;
+}
+
+.counter .inner {
+    height: 95%;
+    border: 1px solid #fff;
+
+}
+
+/* ^ Contact Section Styles */
+.contact {
+    margin: 100px 0px;
+}
+
+.head p {
+    color: #777;
+    opacity: 0.8;
+}
+
+.con-info p {
+    color: #777;
+}
+
+.con-info h3 {
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.social-links li a {
+    padding: 10px;
+    color: #777;
+    border: 1px solid #777;
+    margin-right: 15px;
+}
+
+.social-links li a:hover {
+    background-color: #d62e33;
+    color: #fff;
+}
+
+.form-control:focus {
+    border-color: #d62e33;
+    box-shadow: 0 0 0 .25rem #d62e3427;
+}
+
+textarea.form-control {
+    min-height: 190px;
+    resize: vertical;
+}
+
+button.form-control {
+    width: 200px;
+    height: 50px;
+    text-wrap: nowrap;
+}
+
+button.form-control:focus {
+    border: none;
+}
